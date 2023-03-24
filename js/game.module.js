@@ -24,7 +24,7 @@ export class showGameHome{
             <div class="home-item p-3  ">
                 <img src="${el.thumbnail}" class=" w-100" alt="">
                 <div class="caption d-flex justify-content-between align-items-center mt-2 mb-3">
-                  <h3>${el.title}</h3>
+                  <h3 class="mt-2">${el.title.split(" ").slice(0,2).join(" ")}</h3>
                   <span class="badge text-bg-primary p-2">free</span>
                 </div>
                 <div class="fix-aotu-hight">

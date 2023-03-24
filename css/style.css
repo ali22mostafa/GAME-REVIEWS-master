@@ -1,6 +1,8 @@
 body{
     background-color: #272b30;
-    font-family: "Comfortaa", cursive;
+  
+    font-family: 'Comfortaa', cursive;
+
 
     min-height: 100%;
     min-width: 100%;
@@ -56,7 +58,7 @@ width: 45px;
 }
 .caption h3{
     color: #fff;
-    font-size: .78rem;
+    font-size: 1rem;
 }
 .footer-caption{
     border-top:2px solid   #202328;
